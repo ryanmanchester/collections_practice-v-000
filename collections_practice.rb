@@ -24,4 +24,3 @@ def kesha_maker(array)
     arr << letter[2] + "$"
   end
 end
-    
