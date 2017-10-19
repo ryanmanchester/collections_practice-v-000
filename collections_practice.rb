@@ -21,7 +21,7 @@ end
 def kesha_maker(array)
   arr = []
   array.each do |letter|
-    arr[letter] << letter[2] = "$"
+    letter[arr] << letter[2] = "$"
   end
   arr
 end
