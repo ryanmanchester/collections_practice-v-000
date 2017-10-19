@@ -33,8 +33,9 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.reject do |word|
-    word.start_with?("f") << "s"
-  end
+  array.each_with_index.collect do |word, index|
+    word[index] << "s"
+
+    end
 
 end
