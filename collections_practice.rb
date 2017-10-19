@@ -33,8 +33,8 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.each do |word|
-    word << "s"
+  array.reject do |word|
+    word.start_with?("f") << "s"
   end
 
 end
