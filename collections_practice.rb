@@ -20,3 +20,4 @@ def swap_elements(array)
       -1
     end
   end
+end
