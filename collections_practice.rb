@@ -14,7 +14,7 @@ def swap_elements(array)
   arr = []
   array.each do [index]
     arr << array[index]
-    
+
 end
 
 
