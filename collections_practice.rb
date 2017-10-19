@@ -11,13 +11,5 @@ def sort_array_char_count(string)
 end
 
 def swap_elements(array)
-  array.sort do |a, b|
-    if array[a] == array[b]
-      0
-    elsif array[a] < array[b]
-      1
-    elsif array[a] > array[b]
-      -1
-    end
-  end
+
 end
