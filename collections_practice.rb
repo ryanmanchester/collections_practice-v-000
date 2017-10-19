@@ -34,10 +34,10 @@ end
 
 def add_s(array)
   array.each_with_index do |word, index|
-    if word[index] != 1
-      word << "s"
-    else
+    if word[1]
       word
+    else
+      word << "s"
     end
 
     end
