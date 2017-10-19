@@ -11,11 +11,5 @@ def sort_array_char_count(string)
 end
 
 def swap_elements(array)
-  arr = []
-  array.each do |index|
-    arr << array[index]
-
-end
-
-
+  array.sort {|left, right| left[1] <=> right[2]}
 end
