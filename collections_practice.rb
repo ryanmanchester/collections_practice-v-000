@@ -13,3 +13,7 @@ end
 def swap_elements(array)
   array.sort {|left, right| left[1] <=> right[2]}
 end
+
+def reverse_array(array)
+
+end
